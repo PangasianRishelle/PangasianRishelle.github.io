@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+    padding: 0;
+    font-family: Courier New, monospace;
+    background: slategrey;
+
+}
+p{
+	margin-left: 30px;
+
+}
+header{
+	text-align: center;
+}
+h1{
+	background: darkkhaki;
+}
+h3{
+	margin-left: 10px ;
+
+}
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+.personalInfo, .skills, .projects, .educationBG, .links{
+	margin-left: 20px;
+	margin-right: 20px;
+	border-style: ridge;
+	border-width: 5px;
+	background: lemonchiffon;
+	margin: 10px;
+}
+
+
+.conM{
+	display: flex;
+}
+.con1{
+	width: 400px;
+	background: pink;
+	display: inline-block;
+}
+.con2{
+	width: 1000px;
+	background: khaki;
+
+
+}
+.links{
+	text-align: center;
+	
+}
+.links a{
+	margin-right: 40px;
+	text-decoration: none;
+}
+.links a img{
+	width: 70px;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 0.3s;
+	
+}
